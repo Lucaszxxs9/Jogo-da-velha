@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiAppjogodavelha"
+    x:Class="MauiAppjogodavelha.AppShell">
+
+    <!-- Caso queira definir recursos de estilo globais, coloque aqui -->
+    <!-- Por enquanto, deixamos só a rota para MainPage -->
+    <ShellContent
+        Title="Jogo da Velha"
+        ContentTemplate="{DataTemplate local:MainPage}" />
+</Shell>
